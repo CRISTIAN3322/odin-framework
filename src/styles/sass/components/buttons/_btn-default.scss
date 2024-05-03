@@ -1,0 +1,18 @@
+.btn-default {
+    background: var(--yellow-trafic);
+    border: none;
+    cursor: pointer;
+    color: var(--black-pure);
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 22px;
+    transition: .3s ease all;
+    border: 1px solid var(--black-pure);
+}
+
+.btn-default:hover {
+    background: var(--yellow-pure);
+    color: var(--black-pure);
+}

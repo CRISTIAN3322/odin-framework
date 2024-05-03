@@ -1,0 +1,26 @@
+.navbar-default {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-default .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.navbar-default a {
+    color: var(--black-tabaco);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px 25px;
+    transition: .3s ease all;
+    font-size: 1.125rem;
+}
+
+.navbar-default a.active,
+.navbar-default a:hover {
+    background: var(--brown-capuccino);
+}

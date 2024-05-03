@@ -1,0 +1,31 @@
+---
+import '../styles/sass/main.scss';
+
+import Menu from '../componets/sections/Menu.astro';
+import Tipografias from './view/Tipografias.astro';
+import Botones from './view/Botones.astro';
+// import Dropdown from '../componets/sections/Dropdown.astro';
+import Grid from '../componets/sections/Grid.astro';
+import Section from '../componets/sections/Parte.astro';
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+		<meta name="viewport" content="width=device-width" />
+		<!-- <meta name="generator" content={Astro.generator} /> -->
+		<title>Odin Framework</title>
+	</head>
+	<body class="bg-default">
+		<header>
+			<Menu/>
+		</header>
+		<section class="container">
+			<Tipografias/>
+			<!-- <Botones/> -->
+			<!-- <Grid/>
+			<Section/> -->
+		</section>
+	</body>
+</html>
